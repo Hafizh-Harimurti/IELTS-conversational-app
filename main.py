@@ -5,10 +5,10 @@ import requests
 import threading
 from urllib.parse import urlencode
 
-from .api_handler import APIHandler
-from .audio_player import AudioPlayer
-from .audio_recorder import AudioRecorder
-from .uploader import FileUploader
+from api_handler import APIHandler
+from audio_player import AudioPlayer
+from audio_recorder import AudioRecorder
+from uploader import FileUploader
 
 from dotenv import load_dotenv
 
